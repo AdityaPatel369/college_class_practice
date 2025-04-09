@@ -1,4 +1,4 @@
-// package college_class_practice;
+package college_class_practice;
 public class practice1{
     public static void main(String[] args) {
         // 6. Swap two numbers using a temporary variable
