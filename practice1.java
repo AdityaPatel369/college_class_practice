@@ -32,6 +32,7 @@ calculator();
  default:
  System.out.println("INVALID INPUT");
     }
+    input.close();
     
 
   }
