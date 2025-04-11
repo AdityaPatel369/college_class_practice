@@ -1,4 +1,4 @@
-// package college_class_practice;
+package college_class_practice;
 import java.util.Scanner;
 public class practice1{
     public static void main(String[] args) {
@@ -26,6 +26,8 @@ calculator();
         case 2: 
         System.out.print("The difference is : ");
         System.out.print(a-b);
+        break;
+        
  default:
  System.out.println("INVALID INPUT");
     }
