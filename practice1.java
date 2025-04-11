@@ -16,14 +16,15 @@ calculator();
     System.out.println("enter a and b :");
     int a = input.nextInt();
     int b = input.nextInt();
-   System.out.println("To solve : 1.add \n 2.sub ");
-   int c = input.nextInt();
+   System.out.println("To solve : 1.(+)add \n 2.(-)sub ");
+  //  int c = input.nextInt();
+  char c = input.next().charAt(0);
     switch(c){
-        case 1: 
+        case '+': 
         System.out.println("The sum is : ");
         System.out.print(a+b);
         break;
-        case 2: 
+        case '-': 
         System.out.print("The difference is : ");
         System.out.print(a-b);
         break;
